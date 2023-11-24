@@ -1,0 +1,71 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+   
+}
+
+
+
+
+.faq-bg{
+  z-index: -1;
+  margin-top: 80px !important;
+  height: 500px;
+  background: #000000  url(http://techinautservices.com/wp-content/uploads/2018/08/pattern.svg?id=895) !important;
+
+}
+.bg-2{
+  margin-top: 80px !important;
+  height: 500px;
+  position: absolute;
+  background-color: rgba(255,92,69,0.96) !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 555;
+
+}
+.bg-2 p,.h2{
+  color: #ffff !important;
+
+}
+.bg-2 input::placeholder{
+ padding-left: 20px !important;
+
+}
+.bg-2 input{
+  outline: none;
+}
+
+
+
+.start-bg{
+  background-color: #ffffff;
+    background-image: url(https://www.techinautservices.com/wp-content/uploads/2022/08/content-bottom-bg.webp);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-attachment: scroll;
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-bottom: 20%;
+    padding-left: 0px;
+
+}
+
+.large-btn{
+  padding: 18px 80px !important;
+  background-color: rgb(255, 68, 0);
+  border-radius: 5px;
+  color: #ffff;
+  margin-top: 20px !important;
+
+}
+.large-btn:hover{
+  color: #ffff !important;
+
+}
+
+
+

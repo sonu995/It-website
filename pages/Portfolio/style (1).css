@@ -1,0 +1,36 @@
+/* .first img{
+    display: block;
+    width: 100%;
+    height: 50%;
+/* } */
+<----porfolio--->
+.first h1{
+    color: rgb(1, 1, 51);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+} 
+.first{
+    background-image: url(https://www.techinautservices.com/wp-content/uploads/2022/12/Our-1.webp?id=6167);
+    height: 250px;
+}
+
+<----card--->
+.second .card{
+    padding: 5px;
+    transition: .5s;
+}
+.second .card img{
+    padding: 10px;
+}
+.second .card-title{
+    text-align: center;
+}
+.second .card:hover{
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2),
+                0 6px 20px rgba(0,0,0,0.2);
+                transform: translateY(-10px); 
+    
+}

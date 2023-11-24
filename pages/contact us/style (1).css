@@ -1,0 +1,116 @@
+/* <----firstpart---> */
+.contact{
+    color: rgb(16, 16, 87);
+}
+.contact1{
+    color:grey;
+    margin-top: 60px;
+}
+
+
+/* second */
+
+.button{
+    display: inline-block;
+    padding: 1rem 2rem;
+    text-align: center;
+    justify-content: center;
+    background-color:white;
+    color:rgb(51, 161, 197);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 0.15rem;
+    text-decoration: underline;
+    text-transform: none;
+    transition: all 0.6s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+
+}
+.button:hover{
+    color: white;
+}
+.button::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(243, 57, 57);
+    z-index: -1;
+    
+    transition: 0.7s ease all;
+    transform: scale(0,1);
+    transform-origin: bottom top;
+    /* transition: transform 50ms cubic-bezier(0.86, 0, 0.07, 1);
+    transition-timing-function:cubic-bezier(0.86, 0, 0.07, 1); */
+}
+.button:hover::after{
+    transform:scale(1,1);
+    transform-origin: top bottom;
+
+}
+.card img{
+    height: 50px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.card img:hover{
+    cursor: pointer;
+    transform: rotate(30deg);
+    
+}
+.card-title{
+    color: rgb(73, 73, 73);
+}
+.card-text{
+    color: grey;
+}
+.information{
+    color: grey;
+}
+.site{
+    color: rgb(9, 245, 233);
+}
+.site:hover{
+    color:  rgb(243, 57, 57);
+    text-decoration: dotted;
+}
+
+/* ----FORMS----- */
+
+.start{
+    background-image: url(http://techinautservices.com/wp-content/uploads/2018/08/bg-41.png?id=1014);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    width: 1100px;
+    height: 1100px;
+}
+.feedback{
+    height: 800px;
+    width: 800px;
+   
+}
+.submit .button{
+    display: inline-block;
+    padding: 1rem 2rem;
+    text-align: center;
+    justify-content: center;
+    background-color:rgb(5, 5, 59);
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 0.15rem;
+    text-decoration: underline;
+    text-transform: none;
+    transition: all 0.6s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}

@@ -1,0 +1,104 @@
+
+
+/* <------whychooseus----> */
+
+.choose-bg{
+    background: rgba(0,0,0,0.3) url(http://techinautservices.com/wp-content/uploads/2018/05/rawpixel-com-567026-unsplash1.jpg?id=143) !important;
+    /* background-position: center !important; */
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    height: 95vh;
+    
+}
+
+
+
+.choose-bg{
+    color: white;
+ 
+}
+
+.btn-choose{
+    width: 200px;
+  padding: 15px 0px;
+   border: 4px solid #fff;
+   border-radius: 25px;
+    opacity:0.8; 
+   /* box-shadow:0px 0 0 rgb(252,85,70)  inset; */
+   transition: all 0.5s ease-in-out;
+   color: #ffff;
+ }
+ .btn-choose:hover{
+   box-shadow:200px 0 0 rgb(252,85,70) inset;
+
+ }
+
+
+
+/* .button{
+    display: block;
+    margin: auto;
+} */
+
+/* <-----photos-----> */
+/* .thumb .card-text{
+    color: gray;
+}
+.thumb .card{
+    border: 2px solid white;
+} */
+
+/* <------fourcard----> */
+.four .card{
+    border: 2px solid white;
+}
+.four .card img{
+    width: 40px;
+    margin-left: 10px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+   
+}
+.four .card img:hover{
+    transform: rotate(10deg);
+}
+ .card-color{
+    box-shadow: 0px 0px rgba(0,0,0,0.2),
+                0 2px 1px rgba(0,0,0,0.2);
+}
+
+
+
+
+
+.start-bg{
+    background-color: #ffffff;
+      background-image: url(https://www.techinautservices.com/wp-content/uploads/2022/08/content-bottom-bg.webp);
+      background-position: bottom center;
+      background-repeat: no-repeat;
+      background-size: 100% auto;
+      background-attachment: scroll;
+      padding-top: 10px;
+      padding-right: 0px;
+      padding-bottom: 20%;
+      padding-left: 0px;
+  
+  }
+  
+  .large-btn{
+    padding: 18px 80px !important;
+    background-color: rgb(255, 68, 0);
+    border-radius: 5px;
+    color: #ffff;
+    margin-top: 20px !important;
+  
+  }
+  .large-btn:hover{
+    color: #ffff !important;
+  
+  }
+  
+  
+
+  
+  

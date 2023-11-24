@@ -1,0 +1,11 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="45" height="45">
+	<title>home-food-01-svg</title>
+	<style>
+		.s0 { fill: #28759d } 
+		.s1 { fill: #5db8e8 } 
+	</style>
+	<path id="Layer" class="s0" d="m63.9 19.1l-5.3 41.1h-17.7l-5.2-41.3h21.6l4.3-14.8 2.4 0.7-4.1 14.3h4z"/>
+	<path id="Layer" class="s1" d="m1.5 42.9c0 0-0.7-5.4 8.5-5.4h14.6c9.2 0 8.6 5.4 8.6 5.4z"/>
+	<path id="Layer" class="s1" d="m33.2 54.9c0 0 0.6 5.3-8.6 5.3h-14.6c-9.2 0-8.5-5.3-8.5-5.3z"/>
+	<path id="Layer" class="s1" d="m2.7 52.2c-1.5 0-2.7-1.5-2.7-3.3 0-1.9 1.2-3.4 2.7-3.4h29.1c1.5 0 2.7 1.5 2.7 3.4 0 1.8-1.2 3.3-2.7 3.3z"/>
+</svg>

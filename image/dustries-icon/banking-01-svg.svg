@@ -1,0 +1,16 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+	<title>banking-01-svg</title>
+	<style>
+		.s0 { fill: #28759d } 
+		.s1 { fill: #24ccfd } 
+	</style>
+	<path id="Layer" class="s0" d="m61.6 59.4c0.3 0.3 0.4 0.7 0.4 1.1 0 0.4-0.1 0.8-0.4 1.1-0.3 0.2-0.7 0.4-1.1 0.4h-57c-0.4 0-0.7-0.2-1-0.4-0.3-0.3-0.5-0.7-0.5-1.1 0-0.4 0.2-0.8 0.5-1.1 0.3-0.2 0.6-0.4 1-0.4h57c0.4 0 0.8 0.2 1.1 0.4z"/>
+	<path id="Layer" class="s0" d="m61.6 17.5c0.3 0.3 0.4 0.7 0.4 1.1 0 0.4-0.1 0.7-0.4 1-0.3 0.3-0.7 0.5-1.1 0.5h-57c-0.4 0-0.7-0.2-1-0.5-0.3-0.3-0.5-0.6-0.5-1 0-0.4 0.2-0.8 0.5-1.1 0.3-0.3 0.6-0.4 1-0.4h57c0.4 0 0.8 0.1 1.1 0.4z"/>
+	<path id="Layer" class="s1" d="m8.1 23.1h3v32.9h-3z"/>
+	<path id="Layer" class="s1" d="m53 23.1h3v32.9h-3z"/>
+	<path id="Layer" class="s1" d="m47 23.1h3v32.9h-3z"/>
+	<path id="Layer" class="s1" d="m14.1 23.1h3v32.9h-3z"/>
+	<path id="Layer" class="s1" d="m27.6 23.1h3v32.9h-3z"/>
+	<path id="Layer" class="s1" d="m33.5 23.1h3v32.9h-3z"/>
+	<path id="Layer" class="s0" d="m32 2.1l22.1 12h-6.3l-15.8-8.6-15.7 8.6h-6.3l22-12z"/>
+</svg>

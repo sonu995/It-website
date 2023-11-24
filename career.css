@@ -1,0 +1,68 @@
+/* <---work-----> */
+
+.carrer-width{
+    max-width:1000px !important;
+    margin: 0 auto !important;
+
+}
+.work{
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+    background: #fefefe url(image/widget-search-background.webp) !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+.carrer{
+    margin-top: 6rem !important;
+}
+/* <-----tables----> */
+.opening .current{
+    color: rgb(9, 9, 44);
+}
+.opening .feel{
+    color: rgb(136, 136, 136);
+}
+.table{
+    height: 70px;
+}
+.table .first{
+    color: rgb(9, 9, 44);
+    text-decoration: 1px solid dotted;
+}
+.first:hover{
+    cursor: pointer;
+    color: rgb(252, 117, 117);
+}
+
+td{
+padding: 20px 0px !important;
+
+}
+.place{
+    color: black;
+}
+.follow{
+    color: black;
+}
+.follow a{
+    color: rgb(51, 161, 197);
+    text-decoration: 3px dotted black;
+}
+.follow a:hover{
+    color: rgb(252, 117, 117);
+}
+
+.btn-career{
+    /* width: 400px; */
+  padding: 10px 10px;
+   border:0px;
+    background-color: #f7f9fc!important ;
+   box-shadow:0px 0 0 rgb(252,85,70)  inset;
+   transition: all 0.5s ease-in-out;
+   color: rgb(30,194,239);
+ }
+ .btn-career:hover{
+   box-shadow:400px 0 0 rgb(252,85,70) inset;
+   color: rgb(30,194,239);
+ }

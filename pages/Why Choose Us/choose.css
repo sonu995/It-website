@@ -1,0 +1,479 @@
+a{
+    text-decoration: none;
+  }
+  ::-webkit-scrollbar-track{
+    background: var(--bg-light-blue);
+  }
+  ::-webkit-scrollbar-thumb{
+    background: var(--secondary--color);
+  
+  }
+  
+  /* ----------Nav section------------------ */
+  
+  /* Remove border from toggler */
+  .navbar-toggler {
+    border: 0 !important;
+  }
+  
+  .navbar-toggler:focus,
+  .navbar-toggler:active,
+  .navbar-toggler-icon:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border: 0 !important;
+  }
+  
+  /* Lines of the Toggler */
+  .toggler-icon{
+    width: 30px;
+    height: 3px;
+    background-color: #e74c3c;
+    display: block;
+    transition: all 0.2s;
+  }
+  
+  /* Adds Space between the lines */
+  .middle-bar{
+    margin: 5px auto;
+  }
+  
+  /* State when navbar is opened (START) */
+  .navbar-toggler .top-bar {
+    transform: rotate(45deg);
+    transform-origin: 10% 10%;
+  }
+  
+  .navbar-toggler .middle-bar {
+    opacity: 0;
+    filter: alpha(opacity=0);
+  }
+  
+  .navbar-toggler .bottom-bar {
+    transform: rotate(-45deg);
+    transform-origin: 10% 90%;
+  }
+  /* State when navbar is opened (END) */
+  
+  /* State when navbar is collapsed (START) */
+  .navbar-toggler.collapsed .top-bar {
+    transform: rotate(0);
+  }
+  
+  .navbar-toggler.collapsed .middle-bar {
+    opacity: 1;
+    filter: alpha(opacity=100);
+  }
+  
+  .navbar-toggler.collapsed .bottom-bar {
+    transform: rotate(0);
+  }
+  /* State when navbar is collapsed (END) */
+  
+  /* Color of Toggler when collapsed */
+  .navbar-toggler.collapsed .toggler-icon {
+    background-color: #777777;
+  }
+  
+  
+  .logo-img{
+      width: 150px;
+      /* margin-left: 50px; */
+  }
+   ul li a{
+   margin: 0px 12px;
+   }
+  
+  
+   li.different{
+    border:none;
+    position: relative;
+  }
+  li.different:hover{
+    border: none;
+  }
+  
+  .different::after{
+    content: '';
+    position: absolute;
+    width: 0px;
+    height: 2px;
+    left: 0%;
+    top: 0;
+    background-color: #e74c3c;
+    transition: all ease-in-out .2s;
+  }
+  .different:hover::after{
+    width: 80%;
+    left: 10%;
+  }
+  
+   .bg-body-tertiary {
+    height: 80px !important;
+   }
+  
+  
+  .nav-font{
+    font-size: 16px;
+  
+  
+  }
+  
+   .dropdown-item{
+    font-size: 16px;
+  
+   }
+  
+  /* 
+   * ------------search-box-------------- * */
+  
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+  
+  
+  
+  .input-box {
+    position: relative;
+    width: 100%;
+    max-width: 45px;
+    height: 45px;
+    margin: 0 50px;
+    background-color: #151515;
+    border-radius: 6px;
+    transition: all 0.5s ease-in-out;
+  
+  
+   
+  }
+  .input-box.open {
+    max-width: 350px;
+  }
+  .input-box input {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333;
+    padding: 0 15px;
+    border: none;
+    border-radius: 6px;
+    outline: none;
+    transition: all 0.5s ease-in-out;
+  }
+  .input-box.open input {
+    padding: 0 15px 0 65px;
+  }
+  
+  .input-box .search {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  .input-box.open .search {
+    border-radius: 6px 0 0 6px;
+  }
+  .search .search-icon {
+    font-size: 30px;
+    color: #1c1c1c;
+  }
+  .input-box .close-icon {
+    position: absolute;
+    top: 50%;
+    right: -45px;
+    font-size: 30px;
+    color: #1c1c1c;
+    padding: 5px;
+    transform: translateY(-50%);
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    pointer-events: none;
+    opacity: 0;
+  }
+  .input-box.open .close-icon {
+    transform: translateY(-50%) rotate(180deg);
+    pointer-events: auto;
+    opacity: 1;
+  }
+  
+   .contact{
+    line-height: 1px;
+    margin-top: 20px; 
+    margin-right: 20px;
+    
+  }
+  .poss {
+    position: absolute;
+    right: 0px;
+  }
+
+
+/* <------whychooseus----> */
+
+.choose-bg{
+    background: rgba(0,0,0,0.3) url(http://techinautservices.com/wp-content/uploads/2018/05/rawpixel-com-567026-unsplash1.jpg?id=143) !important;
+    /* background-position: center !important; */
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    height: 95vh;
+    
+}
+
+
+
+.choose-bg{
+    color: white;
+ 
+}
+
+.btn-choose{
+    width: 200px;
+  padding: 15px 0px;
+   border: 4px solid #fff;
+   border-radius: 25px;
+    opacity:0.8; 
+   /* box-shadow:0px 0 0 rgb(252,85,70)  inset; */
+   transition: all 0.5s ease-in-out;
+   color: #ffff;
+ }
+ .btn-choose:hover{
+   box-shadow:200px 0 0 rgb(252,85,70) inset;
+
+ }
+
+
+
+/* .button{
+    display: block;
+    margin: auto;
+} */
+
+/* <-----photos-----> */
+/* .thumb .card-text{
+    color: gray;
+}
+.thumb .card{
+    border: 2px solid white;
+} */
+
+/* <------fourcard----> */
+.four .card{
+    border: 2px solid white;
+}
+.four .card img{
+    width: 40px;
+    margin-left: 10px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+   
+}
+.four .card img:hover{
+    transform: rotate(10deg);
+}
+ .card-color{
+    box-shadow: 0px 0px rgba(0,0,0,0.2),
+                0 2px 1px rgba(0,0,0,0.2);
+}
+
+
+
+
+
+.start-bg{
+    background-color: #ffffff;
+      background-image: url(https://www.techinautservices.com/wp-content/uploads/2022/08/content-bottom-bg.webp);
+      background-position: bottom center;
+      background-repeat: no-repeat;
+      background-size: 100% auto;
+      background-attachment: scroll;
+      padding-top: 10px;
+      padding-right: 0px;
+      padding-bottom: 20%;
+      padding-left: 0px;
+  
+  }
+  
+  .large-btn{
+    padding: 18px 80px !important;
+    background-color: rgb(255, 68, 0);
+    border-radius: 5px;
+    color: #ffff;
+    margin-top: 20px !important;
+  
+  }
+  .large-btn:hover{
+    color: #ffff !important;
+  
+  }
+  
+  
+  
+  
+  /* -------Footer------------- */
+  
+  
+   .footer-ul{
+       list-style-type: none;
+       
+   }
+   .footer-ul a{
+    font-size: 15px;
+    color: #989696;
+   
+   
+   }
+   .footer-ul li{
+    line-height: 1.80rem;
+   
+   }
+  
+   .footer-ul h5{
+    margin-left: 10px;
+   }
+  
+   .footer-ul li :hover{
+       color: crimson;
+   
+   }
+  
+  .footer-icon{
+    margin-left: 10px;
+   color: #d3cfcf;
+   cursor: pointer;
+  
+  }
+  .footer-icon:hover{
+    color: rgb(255, 111, 0);
+  
+  }
+  ul {
+    padding: 0rem;
+  }
+  .footer-p{
+    font-size: 14px;
+    color: #989696;
+  }
+  .footer-boder{
+    border: 1px solid rgb(238, 220, 220);
+  }
+  
+
+  @media (max-width:1199.5px){
+    .logo-img{
+      width: 80px;
+      /* margin-left: 50px; */
+  }
+   ul li a{
+   margin: 0px 8px;
+   
+   }
+   .dropdown-item{
+    font-size: 50px;
+   }
+   .contact{
+    font-size: 12px;
+   
+   }
+   .nav-font{
+    font-size: 13px;
+   }
+    
+   .input-box {
+   
+    max-width: 35px;
+    height: 35px;
+    
+   }
+   .dropdown-item{
+    font-size: 14px;
+  
+   }
+   
+  }
+  
+  @media (max-width:991px){
+  
+  .blue{
+   background-color: rgb(14,43,92);
+     
+   }
+   .nav-font{
+    font-size: 20px;
+  
+  
+  }
+  .contact p {
+    font-size: 20px;
+    color: #fff;
+    line-height: 1rem;
+   
+  }
+   .nav-item,.nav-link,.nav-name:hover{
+    color: #fff !important;
+   }
+   
+   /* -----------MULTIPLE INDUSTRIES-------------- */
+  
+    
+  
+  .dropdown-item{
+    font-size: 14px;
+  
+   }
+   .footer-ul a{
+    font-size: 12px;
+   
+   
+   }
+   .footer-p{
+    font-size: 12px;
+  }
+  
+  
+  }
+  
+  @media (max-width:767px){
+    
+     .nav-item,.nav-link,.nav-name:hover{
+      color: #fff !important;
+     
+     }
+     .nav-font{
+      font-size: 18px;
+    
+    
+    }
+    .contact p {
+      font-size: 18px;
+     
+  }
+    
+  
+   
+    .img-box{
+      margin: 50px 0px !important;
+    }
+    .dropdown-item{
+      font-size: 14px;
+     color: #000 !important;
+    
+     }
+     .footer-ul a{
+      font-size: 12px;
+     
+     
+     }
+     .dropdown-wrap{
+      flex-wrap: wrap;
+     }
+  
+    }
+  
+  

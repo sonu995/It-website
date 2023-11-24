@@ -1,0 +1,109 @@
+ *{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none !important;
+ }
+
+
+.widthcontainer{
+    max-width: 1200px;
+    margin: 0 auto;
+} 
+.widthing{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.aboutus{
+   background-image: url(http://techinautservices.com/wp-content/uploads/2018/08/pexels-photo-140983.jpeg?id=1002);
+   background-repeat: no-repeat;
+   height: 300px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.aboutus h1{  
+    font-weight: 500;
+    color: #0e2b5c;
+}
+.aboutus p{
+    color: #abb8c3;
+}
+
+.btn-change9{
+     width: 200px;
+   padding: 12px 0px;
+    border:0px;
+    border-radius: 20px;
+    background-color: rgb(14,43,92);
+    box-shadow:0px 0 0 rgb(252,85,70)  inset;
+    transition: all 0.5s ease-in-out;
+    color: #ffff;
+  }
+  .btn-change9:hover{
+    box-shadow:200px 0 0 rgb(252,85,70) inset;
+  }
+
+  /* .btn-change2{
+    width: 120px;
+   padding: 5px 0px;
+   border:0px;
+   box-shadow:0px 0 0 rgb(252,85,70)  inset;
+   transition: all 0.5s ease-in-out;
+
+ }
+ .btn-change2:hover{
+   box-shadow:120px 0 0 rgb(252,85,70) inset;
+ } */
+  /* .btn-1{
+    padding: 15px 40px !important;
+  } */
+
+  .btn-change-about{
+    width: 120px;
+   padding: 5px 0px;
+   border:0px;
+   box-shadow:0px 0 0 rgb(252,85,70)  inset;
+   transition: all 0.5s ease-in-out;
+
+  }
+  .btn-change-about:hover{
+    box-shadow:120px 0 0 rgb(252,85,70) inset;
+    color: #ffff;
+  } 
+
+.history-bg{
+    background-color: rgb(24,18,35);
+    color: #ffff;
+}
+.card-imgs img{
+    width: 70px !important;
+    margin: 15px auto;
+    background-color: rgb(24,18,35) !important;
+   
+    
+}
+.card-imgs h2{
+    color: #ffff;
+}
+
+.card-text{
+    color: #abb8c3;
+     margin-top: 70px;
+     text-align: center;
+}
+.solutions-bg {
+    background: linear-gradient(360deg, rgba(0, 0, 0, 0) 10%);
+}
+.solutions-card-bg{
+    box-shadow: 0 10px 60px rgba(0, 0, 0, 0.12) !important;
+    
+}
+
+
+
+
+  
+  
+  
+  
